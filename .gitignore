@@ -9,3 +9,7 @@ __pycache__
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+__init__.py
+source.bat
+setup.py

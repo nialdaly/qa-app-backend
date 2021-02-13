@@ -1,1 +1,17 @@
--e .
+attrs==20.3.0
+aws-cdk.aws-events==1.89.0
+aws-cdk.aws-iam==1.89.0
+aws-cdk.aws-kms==1.89.0
+aws-cdk.aws-s3==1.89.0
+aws-cdk.aws-sagemaker==1.89.0
+aws-cdk.cloud-assembly-schema==1.89.0
+aws-cdk.core==1.89.0
+aws-cdk.cx-api==1.89.0
+aws-cdk.region-info==1.89.0
+cattrs==1.1.2
+constructs==3.3.20
+jsii==1.20.1
+publication==0.0.3
+python-dateutil==2.8.1
+six==1.15.0
+typing-extensions==3.7.4.3
