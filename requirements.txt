@@ -1,5 +1,7 @@
 attrs==20.3.0
+aws-cdk.cdk
 aws-cdk.aws-events==1.89.0
+aws-cdk.aws-lambda==1.89.0
 aws-cdk.aws-iam==1.89.0
 aws-cdk.aws-kms==1.89.0
 aws-cdk.aws-s3==1.89.0
@@ -10,7 +12,7 @@ aws-cdk.cx-api==1.89.0
 aws-cdk.region-info==1.89.0
 cattrs==1.1.2
 constructs==3.3.20
-jsii==1.20.1
+jsii
 publication==0.0.3
 python-dateutil==2.8.1
 six==1.15.0
