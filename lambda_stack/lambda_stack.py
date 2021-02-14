@@ -8,7 +8,6 @@ class LambdaStack(core.Stack):
     def __init__(self, scope: core.Construct, id: str, **kwargs) -> None:
         super().__init__(scope, id, **kwargs)
 
-        # Creates the IAM role with Lambda permissions
         lambda_role = aws_iam.Role(
             self,
             id='Lambda-BERT-Endpoint-Role',
@@ -22,8 +21,8 @@ class LambdaStack(core.Stack):
             self,
             id='Lambda-BERT-Trigger',
             runtime=_lambda.Runtime.PYTHON_3_8,
-            code=_lambda.Code.asset('lambda'),
-            handler='trigger.lambda_handler',
+            code=_lambda.Code.asset('lambda_function'),
+            handler='endpoint_trigger.lambda_handler',
             function_name='Lambda-BERT-Trigger',
             role=lambda_role
         )

@@ -13,3 +13,7 @@ cdk.out
 __init__.py
 source.bat
 setup.py
+
+# BERT model artefacts
+bert_model_artefacts
+.DS_Store
