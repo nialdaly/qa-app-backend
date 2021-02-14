@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from aws_cdk import core
-from sagemaker.sagemaker_stack import SageMakerStack
+from sagemaker_stack.sagemaker_stack import SageMakerStack
 from lambda_stack.lambda_stack import LambdaStack
 
 app = core.App()
