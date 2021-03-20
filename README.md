@@ -1,6 +1,6 @@
 
 ## QA App Backend
-This project builds the backend infrastructure for the BERT-powered [QA app](https://github.com/nialdaly/qa-app). The infrastructure is built using the AWS Cloud Developer Kit (CDK) which is a software development framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation.
+This project builds the backend infrastructure for the BERT-powered [QA app](https://github.com/nialdaly/qa-app). The infrastructure is built using the AWS Cloud Developer Kit (CDK), a software development framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation.
 
 This project uses the CloudFormation templates already defined in the [sagemaker-bert-endpoint](https://github.com/nialdaly/sagemaker-bert-endpoint) repository.
 

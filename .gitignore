@@ -17,3 +17,5 @@ setup.py
 # BERT model artefacts
 bert_model_artefacts
 .DS_Store
+
+TODO.md
